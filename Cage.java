@@ -40,7 +40,7 @@ public class Cage {
 
     public Animal getAnimalAtIndex(int index) {
         // TODO: return the animal at index (or null if invalid)
-        if(index <animals.size()){
+        if(index <animals.size()&&index>=0){
            return animals.get(index);
         }
         else{
