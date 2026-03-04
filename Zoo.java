@@ -78,7 +78,7 @@ public class Zoo {
         if (cages.contains(from)&&cages.contains(to)&&from.containsAnimal(animal)){
            from.removeAnimal(animal);
            to.addAnimal(animal);
-           
+           return true;
         }
         return false;
     }
